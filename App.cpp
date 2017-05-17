@@ -24,7 +24,7 @@ bool App::Init() {
 	}
 
 	if((Window = SDL_CreateWindow(
-		"My SDL Game",
+        "ASW Adventures",
 		SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
 		WindowWidth, WindowHeight, SDL_WINDOW_SHOWN)
 	) == NULL) {

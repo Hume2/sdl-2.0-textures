@@ -6,6 +6,7 @@
 #include <sys/param.h>
 #include <dirent.h>
 #include <stdio.h>
+#include <unistd.h>
 
 //=============================================================================
 bool FileManager::SetContents(std::string Filename, std::string Content, bool Relative) {
